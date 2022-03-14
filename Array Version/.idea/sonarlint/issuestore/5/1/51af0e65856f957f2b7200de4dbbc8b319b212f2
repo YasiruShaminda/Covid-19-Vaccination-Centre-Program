@@ -1,0 +1,48 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¶´ùÁ
+H
+java:S6126"2Replace this String concatenation with Text block.(¶´ùÁ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(œ”‡ÿÿÿÿÿ
+M
+java:S6126!"2Replace this String concatenation with Text block.(œ”‡ÿÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(õéªí
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(×æŞ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(õéªí
+m
+java:S3776<"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(úé§şÿÿÿÿ
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(¶×Ä®üÿÿÿÿ
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(òìè½üÿÿÿÿ
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(‹î°ä
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(öÚŠ¢ûÿÿÿÿ
+N	java:S106b"9Replace this use of System.out or System.err by a logger.(Ø§Í¯
+S	java:S106p"9Replace this use of System.out or System.err by a logger.(ÈÇ”±ùÿÿÿÿ
+N	java:S106}"9Replace this use of System.out or System.err by a logger.(Õ®Á
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(°ı„‚ıÿÿÿÿ
+O	java:S106†"9Replace this use of System.out or System.err by a logger.(«Ø¥­
+O	java:S106‹"9Replace this use of System.out or System.err by a logger.(ÂéÛ„
+O	java:S106"9Replace this use of System.out or System.err by a logger.(¹Ñæ‚
+O	java:S106–"9Replace this use of System.out or System.err by a logger.(Íºıã
+O	java:S106¤"9Replace this use of System.out or System.err by a logger.(ÔòÀÒ
+T	java:S106¥"9Replace this use of System.out or System.err by a logger.(°ı„‚ıÿÿÿÿ
+T	java:S106®"9Replace this use of System.out or System.err by a logger.(îä—áøÿÿÿÿ
+Q	java:S125¯"<This block of commented-out lines of code should be removed.(¼ÁÇ
+O	java:S106´"9Replace this use of System.out or System.err by a logger.(¹Ñæ‚
+p
+java:S3012Æ"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(í†¤§
+O	java:S106Ú"9Replace this use of System.out or System.err by a logger.( ãôä
+O	java:S106ø"9Replace this use of System.out or System.err by a logger.(Œ“éè
+T	java:S106ü"9Replace this use of System.out or System.err by a logger.(«İïúÿÿÿÿ
+T	java:S106’"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿ
+O	java:S106™"9Replace this use of System.out or System.err by a logger.(ŸÓ¶ş
+T	java:S106¥"9Replace this use of System.out or System.err by a logger.(º¦ÖÎùÿÿÿÿ
+O	java:S106´"9Replace this use of System.out or System.err by a logger.(ÙŒî
+O	java:S106¸"9Replace this use of System.out or System.err by a logger.(„§Á
+T	java:S106¹"9Replace this use of System.out or System.err by a logger.(¾ÅÔ¼úÿÿÿÿ
+T
+java:S4973_"9Use the "equals" method if value comparison was intended.(à°°üÿÿÿÿ
+T
+java:S4973o"9Use the "equals" method if value comparison was intended.(à°°üÿÿÿÿ
+0
+java:S1220""Move this file to a named package.
+d
+java:S2095é"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ØğºÚûÿÿÿÿ
