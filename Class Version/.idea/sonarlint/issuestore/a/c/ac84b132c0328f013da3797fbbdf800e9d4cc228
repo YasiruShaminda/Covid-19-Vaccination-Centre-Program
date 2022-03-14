@@ -1,0 +1,57 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(æ˜¯«
+H
+java:S6126"2Replace this String concatenation with Text block.(æ˜¯«
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(œ”‡ÿÿÿÿÿ
+M
+java:S6126!"2Replace this String concatenation with Text block.(œ”‡ÿÿÿÿÿ
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(õéªí
+N	java:S106,"9Replace this use of System.out or System.err by a logger.(×æŞ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(õéªí
+S	java:S106B"9Replace this use of System.out or System.err by a logger.(Öÿˆœùÿÿÿÿ
+m
+java:S3776L"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(úé§şÿÿÿÿ
+S	java:S106W"9Replace this use of System.out or System.err by a logger.(¶×Ä®üÿÿÿÿ
+S	java:S106b"9Replace this use of System.out or System.err by a logger.(†íÑğşÿÿÿÿ
+N	java:S106g"9Replace this use of System.out or System.err by a logger.(™Ìâ„
+N	java:S106h"9Replace this use of System.out or System.err by a logger.(§•½Û
+N	java:S106k"9Replace this use of System.out or System.err by a logger.(Ø¯·
+N	java:S106m"9Replace this use of System.out or System.err by a logger.(õéªí
+S	java:S106x"9Replace this use of System.out or System.err by a logger.(‹¿­„ûÿÿÿÿ
+N	java:S106|"9Replace this use of System.out or System.err by a logger.(«˜Ş¿
+N	java:S106~"9Replace this use of System.out or System.err by a logger.(õéªí
+O	java:S106‹"9Replace this use of System.out or System.err by a logger.(Õ®Á
+T	java:S106"9Replace this use of System.out or System.err by a logger.(°ı„‚ıÿÿÿÿ
+O	java:S106•"9Replace this use of System.out or System.err by a logger.(«Ø¥­
+O	java:S106œ"9Replace this use of System.out or System.err by a logger.(¹Ñæ‚
+O	java:S106¡"9Replace this use of System.out or System.err by a logger.(ÂéÛ„
+O	java:S106¤"9Replace this use of System.out or System.err by a logger.(Íºıã
+O	java:S106¦"9Replace this use of System.out or System.err by a logger.(õéªí
+O	java:S106²"9Replace this use of System.out or System.err by a logger.(ÔòÀÒ
+T	java:S106³"9Replace this use of System.out or System.err by a logger.(°ı„‚ıÿÿÿÿ
+T	java:S106¼"9Replace this use of System.out or System.err by a logger.(îä—áøÿÿÿÿ
+O	java:S106Á"9Replace this use of System.out or System.err by a logger.(¹Ñæ‚
+O	java:S106Æ"9Replace this use of System.out or System.err by a logger.(õéªí
+O	java:S106ê"9Replace this use of System.out or System.err by a logger.( ãôä
+O	java:S106ì"9Replace this use of System.out or System.err by a logger.(õéªí
+O	java:S106Š"9Replace this use of System.out or System.err by a logger.(Œ“éè
+T	java:S106"9Replace this use of System.out or System.err by a logger.(«İïúÿÿÿÿ
+O	java:S106‘"9Replace this use of System.out or System.err by a logger.(õéªí
+T	java:S106"9Replace this use of System.out or System.err by a logger.(‘–úøúÿÿÿÿ
+T	java:S106¨"9Replace this use of System.out or System.err by a logger.(éí÷„ùÿÿÿÿ
+O	java:S106¯"9Replace this use of System.out or System.err by a logger.(ŸÓ¶ş
+O	java:S106±"9Replace this use of System.out or System.err by a logger.(õéªí
+T	java:S106½"9Replace this use of System.out or System.err by a logger.(Çú¸ßüÿÿÿÿ
+T	java:S106¾"9Replace this use of System.out or System.err by a logger.(º¦ÖÎùÿÿÿÿ
+O	java:S106¿"9Replace this use of System.out or System.err by a logger.(õéªí
+O	java:S106Î"9Replace this use of System.out or System.err by a logger.(òÜÛ‹
+O	java:S106Ï"9Replace this use of System.out or System.err by a logger.(ÙŒî
+O	java:S106Ó"9Replace this use of System.out or System.err by a logger.(„§Á
+T	java:S106Ô"9Replace this use of System.out or System.err by a logger.(¾ÅÔ¼úÿÿÿÿ
+O	java:S106Ö"9Replace this use of System.out or System.err by a logger.(õéªí
+ª
+java:S1192 "“Define a constant instead of duplicating this literal "---------------------------------------------------------------------------------" 12 times.(ˆäÙ
+]
+java:S1192g"GDefine a constant instead of duplicating this literal "Booth " 3 times.(™Ìâ„
+d
+java:S2095ı"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(Ïè¥˜ùÿÿÿÿ

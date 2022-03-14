@@ -1,0 +1,8 @@
+Booth no.	Patient Name		Age		NIC/Passport	City
+   1		---Empty---
+   2		c c	22		2002	cccc
+   3		---Empty---
+   4		h h	26		2006	hhhh
+   5		---Empty---
+   6		---Empty---
+-----------------------------------------------------------------------------------

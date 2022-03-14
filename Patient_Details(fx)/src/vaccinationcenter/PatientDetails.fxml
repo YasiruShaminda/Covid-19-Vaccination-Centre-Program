@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="755.0" prefWidth="600.0" styleClass="background" stylesheets="@VaccinationCentreGUI.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vaccinationcenter.DetailsController">
+   <children>
+      <TextField fx:id="firstName" layoutX="237.0" layoutY="114.0" prefHeight="35.0" prefWidth="309.0" promptText="Enter Your First Name" styleClass="text-field" stylesheets="@VaccinationCentreGUI.css" />
+      <Label layoutX="43.0" layoutY="114.0" prefHeight="37.0" prefWidth="133.0" stylesheets="@VaccinationCentreGUI.css" text="First Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="surName" layoutX="237.0" layoutY="165.0" prefHeight="35.0" prefWidth="309.0" promptText="Enter Your Surname" styleClass="text-field" stylesheets="@VaccinationCentreGUI.css" />
+      <Label layoutX="43.0" layoutY="165.0" prefHeight="37.0" prefWidth="133.0" stylesheets="@VaccinationCentreGUI.css" text="Surname">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="city" layoutX="237.0" layoutY="263.0" prefHeight="35.0" prefWidth="309.0" promptText="Enter Your City" styleClass="text-field" stylesheets="@VaccinationCentreGUI.css" />
+      <Label layoutX="43.0" layoutY="263.0" prefHeight="37.0" prefWidth="133.0" stylesheets="@VaccinationCentreGUI.css" text="City">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="idNumber" layoutX="237.0" layoutY="314.0" prefHeight="35.0" prefWidth="309.0" promptText="Enter NIC or Passport" styleClass="text-field" stylesheets="@VaccinationCentreGUI.css" />
+      <Label layoutX="43.0" layoutY="314.0" prefHeight="37.0" prefWidth="133.0" stylesheets="@VaccinationCentreGUI.css" text="Nic / Passport">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="431.0" prefHeight="37.0" prefWidth="182.0" stylesheets="@VaccinationCentreGUI.css" text="Choose Vaccination">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rbAstra" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" layoutX="237.0" layoutY="383.0" mnemonicParsing="false" onAction="#getVaccType" prefHeight="37.0" prefWidth="309.0" stylesheets="@VaccinationCentreGUI.css" text="AstraZeneca" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Bold" size="12.0" />
+         </font>
+         <toggleGroup>
+            <ToggleGroup fx:id="vaccType" />
+         </toggleGroup>
+      </RadioButton>
+      <RadioButton fx:id="rbSino" contentDisplay="GRAPHIC_ONLY" layoutX="237.0" layoutY="431.0" mnemonicParsing="false" onAction="#getVaccType" prefHeight="37.0" prefWidth="309.0" stylesheets="@VaccinationCentreGUI.css" text="Sinopharm" textFill="WHITE" toggleGroup="$vaccType">
+         <font>
+            <Font name="Segoe UI Bold" size="12.0" />
+         </font>
+      </RadioButton>
+      <RadioButton fx:id="rbPfizer" contentDisplay="GRAPHIC_ONLY" layoutX="237.0" layoutY="480.0" mnemonicParsing="false" onAction="#getVaccType" prefHeight="37.0" prefWidth="309.0" stylesheets="@VaccinationCentreGUI.css" text="Pfizer" textFill="WHITE" toggleGroup="$vaccType">
+         <font>
+            <Font name="Segoe UI Bold" size="12.0" />
+         </font>
+      </RadioButton>
+      <Label layoutX="278.0" layoutY="384.0" prefHeight="37.0" prefWidth="182.0" stylesheets="@VaccinationCentreGUI.css" text="AstraZeneca">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="432.0" prefHeight="37.0" prefWidth="182.0" stylesheets="@VaccinationCentreGUI.css" text="Sinopharm">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="481.0" prefHeight="37.0" prefWidth="182.0" stylesheets="@VaccinationCentreGUI.css" text="Pfizer">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="154.0" layoutY="18.0" prefHeight="50.0" prefWidth="293.0" stylesheets="@VaccinationCentreGUI.css" text="Patient Details">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <HBox layoutX="209.0" layoutY="76.0" prefHeight="3.0" prefWidth="182.0" style="-fx-background-color: #76ff03;" />
+      <Label layoutX="43.0" layoutY="572.0" prefHeight="37.0" prefWidth="182.0" stylesheets="@VaccinationCentreGUI.css" text="Select Your Booth">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="rbBooth1" disable="true" layoutX="234.0" layoutY="561.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="95.0" text="Booth 1" textFill="WHITE">
+         <toggleGroup>
+            <ToggleGroup fx:id="booth" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="rbBooth3" disable="true" layoutX="344.0" layoutY="561.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="95.0" text="Booth 3" textFill="WHITE" toggleGroup="$booth" />
+      <RadioButton fx:id="rbBooth5" disable="true" layoutX="454.0" layoutY="561.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="95.0" text="Booth 5" textFill="WHITE" toggleGroup="$booth" />
+      <RadioButton fx:id="rbBooth2" disable="true" layoutX="234.0" layoutY="599.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="95.0" text="Booth 2" textFill="WHITE" toggleGroup="$booth" />
+      <RadioButton fx:id="rbBooth4" disable="true" layoutX="344.0" layoutY="599.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="95.0" text="Booth 4" textFill="WHITE" toggleGroup="$booth" />
+      <RadioButton fx:id="rbBooth6" disable="true" layoutX="454.0" layoutY="599.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="95.0" text="Booth 6" textFill="WHITE" toggleGroup="$booth" />
+      <Separator layoutX="30.0" layoutY="651.0" opacity="0.05" prefHeight="3.0" prefWidth="541.0" />
+      <Button fx:id="receiptButton" layoutX="163.0" layoutY="676.0" mnemonicParsing="false" onAction="#ganerateReceipt" prefHeight="50.0" prefWidth="275.0" text="Generate Receipt">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Separator layoutX="30.0" layoutY="539.0" opacity="0.05" prefHeight="3.0" prefWidth="541.0" />
+      <Separator layoutX="30.0" layoutY="366.0" opacity="0.05" prefHeight="3.0" prefWidth="541.0" />
+      <TextField fx:id="age" layoutX="236.0" layoutY="213.0" prefHeight="35.0" prefWidth="309.0" promptText="Enter Your Age" styleClass="text-field" stylesheets="@VaccinationCentreGUI.css" />
+      <Label layoutX="42.0" layoutY="213.0" prefHeight="37.0" prefWidth="133.0" stylesheets="@VaccinationCentreGUI.css" text="Age">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

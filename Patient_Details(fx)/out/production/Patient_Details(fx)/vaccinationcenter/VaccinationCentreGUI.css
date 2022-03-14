@@ -1,0 +1,88 @@
+.background {
+            -fx-background-color: #212121;
+}
+
+.pane {
+            -fx-border-color : #454545;
+
+}
+
+.label {
+            -fx-text-fill : #ffffff;
+            -fx-font-family : "Segoe UI Semibold";
+}
+
+.label-receipt {
+            -fx-text-fill : #d0d0d0;
+            -fx-font-family : "Segoe UI Semibold";
+}
+
+.button {
+            -fx-border-color : #76ff03;
+            -fx-border-radius : 25px;
+            -fx-background-color : #1d1d1d;
+            -fx-background-radius : 25px;
+            -fx-text-fill : #ffffff;
+            -fx-font-family : "Segoe UI Semibold";
+            -fx-font-size : 20px;
+            -fx-cursor : pointer;
+}
+
+.button:hover {
+            -fx-background-color : #000000;
+            -fx-text-fill : #76ff03;
+}
+
+.text-field {
+            -fx-font-size: 12pt;
+            -fx-font-family: "Segoe UI Semibold";
+            -fx-text-fill: #ffffff;
+            -fx-background-color: #1d1d1d;
+            -fx-background-radius: 20;
+            -fx-border-color: #616161;
+            -fx-border-radius: 20;
+            -fx-padding:  5 15;
+            -fx-cursor-color: #ffffff;
+ }
+
+.text-field:focused {
+            -fx-border-color: #76ff03; }
+
+.dialog-pane {
+            -fx-border-color: #76ff03;
+            -fx-border-width:0.4px;
+            }
+
+.dialog-pane > .content {
+            -fx-background-color: #1d1d1d;
+            -fx-text-fill: #ffffff;
+            -fx-font-size: 15pt;
+            -fx-font-family:"Segoe UI Semibold"}
+
+.dialog-pane > .button-bar> .container {
+            -fx-background-color: #1d1d1d; }
+
+.dialog-pane:header .header-panel {
+            -fx-background-color: black;
+}
+
+.radio-button {
+            -fx-background-color: #1d1d1d;
+            -fx-background-radius: 20px;
+            -fx-border-color: #616161df;
+            -fx-border-radius: 20px;
+            -fx-padding: 0 10px;
+            -fx-font-size: 12px;
+}
+
+.radio-button:selected {
+            -fx-border-color: #76ff03;
+            -fx-border-radius: 130px;
+            -fx-color: #ffffff;
+}
+
+
+.aPane{    -fx-background-color: #1d1d1d;
+           -fx-border-color: #76ff03;
+           -fx-border-width: 0.4px; }
+

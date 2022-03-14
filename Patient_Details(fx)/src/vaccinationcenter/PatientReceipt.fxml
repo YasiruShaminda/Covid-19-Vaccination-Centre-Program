@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="721.0" prefWidth="522.0" styleClass="background" stylesheets="@VaccinationCentreGUI.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vaccinationcenter.ReceiptController">
+   <children>
+      <HBox layoutY="39.0" prefHeight="34.0" prefWidth="312.0" style="-fx-background-color: #76ff03;" styleClass="background" />
+      <Label alignment="CENTER_RIGHT" layoutX="312.0" layoutY="30.0" prefHeight="51.0" prefWidth="136.0" stylesheets="@VaccinationCentreGUI.css" text="RECEIPT">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <HBox layoutX="454.0" layoutY="39.0" prefHeight="34.0" prefWidth="68.0" style="-fx-background-color: #76ff03;" styleClass="background" />
+      <Pane layoutX="38.0" layoutY="173.0" prefHeight="227.0" prefWidth="446.0" styleClass="pane" stylesheets="@VaccinationCentreGUI.css">
+         <children>
+            <Label layoutX="34.0" layoutY="14.0" prefHeight="25.0" prefWidth="102.0" styleClass="label-receipt" stylesheets="@VaccinationCentreGUI.css" text="First Name">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="57.0" prefHeight="25.0" prefWidth="102.0" styleClass="label-receipt" stylesheets="@VaccinationCentreGUI.css" text="Surname">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="98.0" prefHeight="25.0" prefWidth="102.0" styleClass="label-receipt" stylesheets="@VaccinationCentreGUI.css" text="Age">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="143.0" prefHeight="25.0" prefWidth="102.0" styleClass="label-receipt" stylesheets="@VaccinationCentreGUI.css" text="NIC / Passport">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="34.0" layoutY="190.0" prefHeight="25.0" prefWidth="102.0" styleClass="label-receipt" stylesheets="@VaccinationCentreGUI.css" text="City">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Separator layoutX="19.0" layoutY="44.0" opacity="0.08" prefHeight="0.0" prefWidth="408.0" />
+            <Separator layoutX="19.0" layoutY="90.0" opacity="0.08" prefHeight="0.0" prefWidth="408.0" />
+            <Separator layoutX="19.0" layoutY="132.0" opacity="0.08" prefHeight="0.0" prefWidth="408.0" />
+            <Separator layoutX="19.0" layoutY="178.0" opacity="0.08" prefHeight="0.0" prefWidth="408.0" />
+            <Separator layoutX="153.0" layoutY="14.0" opacity="0.08" orientation="VERTICAL" prefHeight="200.0" prefWidth="0.0" />
+            <Label fx:id="fName" layoutX="179.0" layoutY="14.0" prefHeight="25.0" prefWidth="229.0" stylesheets="@VaccinationCentreGUI.css">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="sName" layoutX="179.0" layoutY="57.0" prefHeight="25.0" prefWidth="229.0" stylesheets="@VaccinationCentreGUI.css">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="pAge" layoutX="179.0" layoutY="98.0" prefHeight="25.0" prefWidth="229.0" stylesheets="@VaccinationCentreGUI.css">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="pIdNumber" layoutX="179.0" layoutY="143.0" prefHeight="25.0" prefWidth="229.0" stylesheets="@VaccinationCentreGUI.css">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="pCity" layoutX="179.0" layoutY="190.0" prefHeight="25.0" prefWidth="229.0" stylesheets="@VaccinationCentreGUI.css">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="38.0" layoutY="428.0" prefHeight="94.0" prefWidth="205.0" styleClass="pane" stylesheets="@VaccinationCentreGUI.css">
+         <children>
+            <Label alignment="CENTER" layoutX="22.0" layoutY="11.0" prefHeight="34.0" prefWidth="162.0" styleClass="label-receipt" stylesheets="@VaccinationCentreGUI.css" text="Vaccination Requested" textFill="#d0d0d0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="pVaccType" alignment="CENTER" layoutX="9.0" layoutY="45.0" prefHeight="34.0" prefWidth="188.0" stylesheets="@VaccinationCentreGUI.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label alignment="CENTER" layoutX="312.0" layoutY="440.0" prefHeight="34.0" prefWidth="162.0" styleClass="label-receipt" stylesheets="@VaccinationCentreGUI.css" text="Date Issued :" textFill="#d0d0d0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="date" alignment="CENTER" layoutX="316.0" layoutY="463.0" prefHeight="34.0" prefWidth="154.0" stylesheets="@VaccinationCentreGUI.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="time" alignment="CENTER" layoutX="316.0" layoutY="482.0" prefHeight="34.0" prefWidth="154.0" stylesheets="@VaccinationCentreGUI.css">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Pane layoutX="322.0" layoutY="104.0" prefHeight="51.0" prefWidth="162.0" styleClass="pane" stylesheets="@VaccinationCentreGUI.css">
+         <children>
+            <Label alignment="CENTER" layoutY="9.0" prefHeight="34.0" prefWidth="108.0" styleClass="label-receipt" stylesheets="@VaccinationCentreGUI.css" text="Booth No." textFill="#d0d0d0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="boothNumber" alignment="CENTER" layoutX="106.0" layoutY="9.0" prefHeight="34.0" prefWidth="53.0" style="-fx-text-fill: #76ff03;" stylesheets="@VaccinationCentreGUI.css" text="2" textFill="WHITE">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Separator layoutX="103.0" layoutY="9.0" opacity="0.08" orientation="VERTICAL" prefHeight="34.0" prefWidth="0.0" />
+         </children>
+      </Pane>
+      <Button fx:id="printButton" layoutX="224.0" layoutY="634.0" mnemonicParsing="false" onAction="#print" prefHeight="51.0" prefWidth="120.0" text="Print" />
+      <Button fx:id="okButton" layoutX="364.0" layoutY="634.0" mnemonicParsing="false" onAction="#closeWindow" prefHeight="51.0" prefWidth="120.0" text="OK" />
+      <ImageView fitHeight="43.0" fitWidth="446.0" layoutX="38.0" layoutY="557.0" pickOnBounds="true">
+         <image>
+            <Image url="@barcode_l.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="21.0" layoutY="541.0" opacity="0.08" prefHeight="3.0" prefWidth="480.0" />
+      <Separator layoutX="21.0" layoutY="613.0" opacity="0.08" prefHeight="3.0" prefWidth="480.0" />
+   </children>
+</AnchorPane>
