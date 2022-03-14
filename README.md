@@ -9,4 +9,4 @@ It also offers a JavaFx-based graphical user interface.
 ! [Generated Receipt](JavaFx2.PNG)
 ! [Printer Not Found Warning](JavaFx3.PNG)
 
-<img src="JavaFx1.PNG">
+<img src="JavaFx1.PNG" width="50%" height="50%">
