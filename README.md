@@ -5,10 +5,11 @@ It also offers a JavaFx-based graphical user interface.
 
 ## Patient Details (GUI)
 
-! [Patient Detail Form](JavaFx1.PNG)
-! [Generated Receipt](JavaFx2.PNG)
-! [Printer Not Found Warning](JavaFx3.PNG)
+#### Patient Detail Form
+![Patient Detail Form](JavaFx1.PNG)
 
-<img src="JavaFx1.PNG" width="50%" height="50%">
-<img src="JavaFx2.PNG" width="50%" height="50%">
-<img src="JavaFx3.PNG" width="50%" height="50%">
+#### Generated Receipt
+![Generated Receipt](JavaFx2.PNG)
+
+#### Printer Not Found Warning
+![Printer Not Found Warning](JavaFx3.PNG)
